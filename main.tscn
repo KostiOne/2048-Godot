@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dw2w8ifxanpqe"]
+
+[ext_resource type="Script" path="res://grid.gd" id="1_qju6v"]
+[ext_resource type="Script" path="res://input.gd" id="2_6nhqb"]
+
+[node name="main" type="Node2D"]
+
+[node name="grid" type="Node2D" parent="."]
+script = ExtResource("1_qju6v")
+cell_size = 64
+
+[node name="Input" type="Node2D" parent="."]
+script = ExtResource("2_6nhqb")
